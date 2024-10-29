@@ -1,0 +1,67 @@
+
+/* Estilo para aclarar el fondo de las filas de la tabla */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Color de fondo más claro para las filas impares */
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #f1f1f1; /* Color de fondo ligeramente más oscuro para las filas pares */
+}
+
+/* Mantener un fondo oscuro en el encabezado */
+.table thead-dark th {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Estilo de hover para que las filas se iluminen al pasar el ratón */
+.table-striped tbody tr:hover {
+    background-color: #e0e0e0ee; /* Color más claro al hacer hover */
+}
+/* Estilo para reducir el tamaño de los botones y ajustarlos en una línea */
+.table .btn {
+    padding: 0.2rem 0.4rem; /* Reducir el padding de los botones */
+    font-size: 0.75rem; /* Reducir el tamaño de la fuente en los botones */
+    line-height: 1; /* Reducir la altura de la línea */
+}
+
+/* Ajustar el margen entre los iconos y el texto en los botones */
+.table .btn i {
+    margin-left: 0.2rem; /* Reducir el margen entre el icono y el texto */
+}
+
+/* Reducir el margen entre los botones */
+.table .btn + .btn {
+    margin-left: 0.15rem; /* Reducir el margen entre botones */
+}
+
+/* Reducir el tamaño de la fuente en la columna de apellidos */
+.table td.align-middle {
+    font-size: 0.9rem; /* Reducir el tamaño de la fuente en las celdas */
+    white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
+}
+
+/* Evitar que los apellidos se dividan en dos líneas */
+.table td.align-middle:nth-child(3) {
+    white-space: nowrap; /* Evitar que los apellidos se dividan */
+}
+
+/* Modificación del color de la alerta para que sea más azulada */
+.alert.alert-success {
+    background-color: #55a4f8; /* Azul más claro */
+    color: white; /* Texto blanco para contraste */
+}
+/* cAMBIAR fondo de el text-left */
+.text-left{
+    padding: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+/* Cambiar el fondo de cada .form-group.row */
+.form-group.row {
+    background-color: #a6ccf2; /* Fondo claro */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado entre los campos */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+}
